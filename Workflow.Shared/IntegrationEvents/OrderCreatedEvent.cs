@@ -22,6 +22,10 @@
     {
     }
 
+    public record OrderCompletedEvent : IntegrationEvent
+    {
+    }
+
 
     public abstract record FailedEvent : IntegrationEvent
     {
@@ -40,7 +44,9 @@
     {
     }
 
-    public record ItemsShippingFailedEvent : FailedEvent
+    public record ItemsShipmentFailedEvent : FailedEvent
     {
     }
+
+
 }
