@@ -49,6 +49,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderSystem.WarehouseServic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderSystem.OrderService.Application", "OrderService\OrderSystem.OrderService.Application\OrderSystem.OrderService.Application.csproj", "{0AC2FFF8-C942-496E-B49F-BEEDD8173B25}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F04E0AA0-7367-49D2-A877-729CD5E61CA4}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
