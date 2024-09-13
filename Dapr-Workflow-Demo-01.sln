@@ -5,7 +5,7 @@ VisualStudioVersion = 17.12.35209.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderWorkflowService", "OrderWorkflowService\OrderWorkflowService.csproj", "{CB5E4789-5750-44EC-AA98-77839D144F50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow.Shared", "Workflow.Shared\Workflow.Shared.csproj", "{3682B0AE-4800-4AED-9504-4F6E24930CB6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderSystem.Shared", "Workflow.Shared\OrderSystem.Shared.csproj", "{3682B0AE-4800-4AED-9504-4F6E24930CB6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderSystem.PaymentService", "OrderSystem.PaymentService\OrderSystem.PaymentService.csproj", "{CF673984-77C1-4A93-AD56-3F0B3E294E57}"
 EndProject

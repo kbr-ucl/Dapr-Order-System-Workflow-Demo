@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Workflow.Shared\Workflow.Shared.csproj" />
+    <ProjectReference Include="..\Workflow.Shared\OrderSystem.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>
