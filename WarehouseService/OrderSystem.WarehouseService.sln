@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderSystem.WarehouseService.Api", "OrderSystem.WarehouseService.Api\OrderSystem.WarehouseService.Api.csproj", "{AD1896FF-6EC2-4443-91BD-F379C517AA89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderSystem.WarehouseService.Application", "OrderSystem.WarehouseService.Application\OrderSystem.WarehouseService.Application.csproj", "{A6AB4063-BD83-46E9-84A0-65484C22012F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderSystem.WarehouseService.Domain", "OrderSystem.WarehouseService.Domain\OrderSystem.WarehouseService.Domain.csproj", "{ED94AD0D-EF27-4962-B6D0-1055DC1ABAD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderSystem.WarehouseService.Domain.Test", "OrderSystem.WarehouseService.Domain.Test\OrderSystem.WarehouseService.Domain.Test.csproj", "{E519E8D9-0106-43AC-8DBB-7D6C97BACC08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderSystem.WarehouseService.Infrastructure", "OrderSystem.WarehouseService.Infrastructure\OrderSystem.WarehouseService.Infrastructure.csproj", "{327F2180-ECEB-4E6E-B690-813644658211}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderSystem.WarehouseService.DatabaseMigration", "OrderSystem.WarehouseService.DatabaseMigration\OrderSystem.WarehouseService.DatabaseMigration.csproj", "{86F52FC6-DAC3-4D70-9D2D-F8B969EE9FD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD1896FF-6EC2-4443-91BD-F379C517AA89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD1896FF-6EC2-4443-91BD-F379C517AA89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD1896FF-6EC2-4443-91BD-F379C517AA89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD1896FF-6EC2-4443-91BD-F379C517AA89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6AB4063-BD83-46E9-84A0-65484C22012F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6AB4063-BD83-46E9-84A0-65484C22012F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6AB4063-BD83-46E9-84A0-65484C22012F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6AB4063-BD83-46E9-84A0-65484C22012F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED94AD0D-EF27-4962-B6D0-1055DC1ABAD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED94AD0D-EF27-4962-B6D0-1055DC1ABAD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED94AD0D-EF27-4962-B6D0-1055DC1ABAD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED94AD0D-EF27-4962-B6D0-1055DC1ABAD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E519E8D9-0106-43AC-8DBB-7D6C97BACC08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E519E8D9-0106-43AC-8DBB-7D6C97BACC08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E519E8D9-0106-43AC-8DBB-7D6C97BACC08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E519E8D9-0106-43AC-8DBB-7D6C97BACC08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{327F2180-ECEB-4E6E-B690-813644658211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{327F2180-ECEB-4E6E-B690-813644658211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{327F2180-ECEB-4E6E-B690-813644658211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{327F2180-ECEB-4E6E-B690-813644658211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86F52FC6-DAC3-4D70-9D2D-F8B969EE9FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F52FC6-DAC3-4D70-9D2D-F8B969EE9FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F52FC6-DAC3-4D70-9D2D-F8B969EE9FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86F52FC6-DAC3-4D70-9D2D-F8B969EE9FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

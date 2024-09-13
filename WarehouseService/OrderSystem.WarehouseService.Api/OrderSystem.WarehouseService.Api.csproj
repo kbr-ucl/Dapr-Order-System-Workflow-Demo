@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.8">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.7.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OrderSystem.WarehouseService.Application\OrderSystem.WarehouseService.Application.csproj" />
+    <ProjectReference Include="..\OrderSystem.WarehouseService.Domain\OrderSystem.WarehouseService.Domain.csproj" />
+    <ProjectReference Include="..\OrderSystem.WarehouseService.Infrastructure\OrderSystem.WarehouseService.Infrastructure.csproj" />
+    <ProjectReference Include="..\OrderSystem.WarehouseService.DatabaseMigration\OrderSystem.WarehouseService.DatabaseMigration.csproj" />
+  </ItemGroup>
+
+</Project>

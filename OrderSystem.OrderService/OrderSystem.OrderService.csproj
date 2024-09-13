@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Workflow.Shared\OrderSystem.Shared.csproj" />
+    <ProjectReference Include="..\OrderSystem.Shared\OrderSystem.Shared.csproj" />
   </ItemGroup>
 
 </Project>
