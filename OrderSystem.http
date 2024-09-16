@@ -14,3 +14,8 @@ GET {{OrderSystem.ApiGateway.Api_HostAddress}}/warehouse/hello
 Accept: application/json
 
 ###
+
+GET {{OrderSystem.ApiGateway.Api_HostAddress}}/warehouse/dapr/order/hello
+Accept: application/json
+
+###

@@ -5,13 +5,18 @@ services:
       context: .
       dockerfile: OrderSystem.ApiGateway/Dockerfile
 
-  ordersystem.orderservice.api:
+
+  orderservice:
     image: ${DOCKER_REGISTRY-}ordersystemorderserviceapi
     build:
       context: .
       dockerfile: OrderService/OrderSystem.OrderService.Api/Dockerfile
 
-
+  orderservicedapr:
+    image: "daprio/dapr"
+    depends_on:
+      - orderservice
+  
   ordersystem.paymentservice.api:
     image: ${DOCKER_REGISTRY-}ordersystempaymentserviceapi
     build:
