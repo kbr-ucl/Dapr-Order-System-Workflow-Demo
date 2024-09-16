@@ -1,0 +1,27 @@
+services:
+  ordersystem.apigateway:
+    image: ${DOCKER_REGISTRY-}ordersystemapigateway
+    build:
+      context: .
+      dockerfile: OrderSystem.ApiGateway/Dockerfile
+
+  ordersystem.orderservice.api:
+    image: ${DOCKER_REGISTRY-}ordersystemorderserviceapi
+    build:
+      context: .
+      dockerfile: OrderService/OrderSystem.OrderService.Api/Dockerfile
+
+
+  ordersystem.paymentservice.api:
+    image: ${DOCKER_REGISTRY-}ordersystempaymentserviceapi
+    build:
+      context: .
+      dockerfile: PaymentService/OrderSystem.PaymentService.Api/Dockerfile
+
+
+  ordersystem.warehouseservice.api:
+    image: ${DOCKER_REGISTRY-}ordersystemwarehouseserviceapi
+    build:
+      context: .
+      dockerfile: WarehouseService/OrderSystem.WarehouseService.Api/Dockerfile
+

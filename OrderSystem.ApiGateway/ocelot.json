@@ -1,0 +1,31 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5001"
+  },
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/gateway/products",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/products",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5047
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/invoice",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/invoice",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5162
+        }
+      ]
+    }
+  ]
+}
