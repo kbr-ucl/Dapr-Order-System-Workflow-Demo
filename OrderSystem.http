@@ -1,0 +1,16 @@
+@OrderSystem.ApiGateway.Api_HostAddress = http://localhost:30000/gateway
+
+GET {{OrderSystem.ApiGateway.Api_HostAddress}}/order/hello
+Accept: application/json
+
+###
+
+GET {{OrderSystem.ApiGateway.Api_HostAddress}}/payment/hello
+Accept: application/json
+
+###
+
+GET {{OrderSystem.ApiGateway.Api_HostAddress}}/warehouse/hello
+Accept: application/json
+
+###

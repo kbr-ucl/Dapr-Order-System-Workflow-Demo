@@ -24,6 +24,7 @@ if (app.Environment.IsDevelopment())
 }
 
 // app.UseHttpsRedirection();
+app.MapGet("/hello", () => "Ocelot: Hello World!").WithOpenApi();
 
 app.UseOcelot().Wait();
 

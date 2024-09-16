@@ -1,29 +1,41 @@
 {
   "GlobalConfiguration": {
-    "BaseUrl": "http://localhost:5001"
+    "BaseUrl": "http://localhost:8080"
   },
   "Routes": [
     {
-      "UpstreamPathTemplate": "/gateway/products",
+      "UpstreamPathTemplate": "/gateway/order/hello",
       "UpstreamHttpMethod": [ "GET" ],
-      "DownstreamPathTemplate": "/api/products",
+      "DownstreamPathTemplate": "/hello",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 5047
+          "Host": "ordersystem.orderservice.api",
+          "Port": 8080
         }
       ]
     },
     {
-      "UpstreamPathTemplate": "/gateway/invoice",
+      "UpstreamPathTemplate": "/gateway/payment/hello",
       "UpstreamHttpMethod": [ "GET" ],
-      "DownstreamPathTemplate": "/api/invoice",
+      "DownstreamPathTemplate": "/hello",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 5162
+          "Host": "ordersystem.paymentservice.api",
+          "Port": 8080
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/warehouse/hello",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/hello",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "ordersystem.warehouseservice.api",
+          "Port": 8080
         }
       ]
     }
