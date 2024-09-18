@@ -16,6 +16,18 @@
       ]
     },
     {
+      "UpstreamPathTemplate": "/gateway/dapr/order/hello",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/v1.0/invoke/orderservice/method/hello",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "orderservice",
+          "Port": 3500 // Dapr sidecar port default is 3500
+        }
+      ]
+    },
+    {
       "UpstreamPathTemplate": "/gateway/payment/hello",
       "UpstreamHttpMethod": [ "GET" ],
       "DownstreamPathTemplate": "/hello",
@@ -36,18 +48,6 @@
         {
           "Host": "ordersystem.warehouseservice.api",
           "Port": 8080
-        }
-      ]
-    },
-    {
-      "UpstreamPathTemplate": "/gateway/warehouse/dapr/order/hello",
-      "UpstreamHttpMethod": [ "GET" ],
-      "DownstreamPathTemplate": "/v1.0/invoke/orderservice/method/hello",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "orderservice",
-          "Port": 32000
         }
       ]
     }
